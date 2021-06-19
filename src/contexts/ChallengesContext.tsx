@@ -37,7 +37,7 @@ export function ChallengesProvider({ children, ...rest }: ChallengesProviderProp
   
   const [activeChallenge,setActiveChallenge] = useState(null);
   const[isLevelUpModalOpen,setIsLevelUpModalOpen] = useState(false);
-
+  
   const experienceToNextLevel = Math.pow((level + 1)*4,2);
 
 useEffect(() =>{
